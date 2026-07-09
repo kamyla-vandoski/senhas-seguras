@@ -9,6 +9,7 @@ botoes[1].onclick = aumentaTamanho;
 
 function diminuiTamanho() {
     if (tamanhoSenha > 1) {
+       // tamanhoSenha = tamanhoSenha-1;
         tamanhoSenha--;
     }
     numeroSenha.textContent = tamanhoSenha;
@@ -21,4 +22,4 @@ function aumentaTamanho() {
     numeroSenha.textContent = tamanhoSenha;
 }
 
-console.log(botoes);
+const campoSenha = document.querySelector('#campo-senha');
