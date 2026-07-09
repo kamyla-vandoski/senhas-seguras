@@ -28,6 +28,8 @@ const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 geraSenha();
 
 function geraSenha(){
+
+    for(let i = 0;)
 let numeroAleatorio = Math.random()*letrasMaiusculas.length;
 numeroAleatorio=Math.floor(numeroAleatorio);
 console.log(letrasMaiusculas[numeroAleatorio]);
