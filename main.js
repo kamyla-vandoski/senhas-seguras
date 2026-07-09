@@ -26,5 +26,5 @@ const campoSenha = document.querySelector('#campo-senha');
 
 const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
-campoSenha.textContent = letrasMaiusculas;
+campoSenha.value = letrasMaiusculas;
 
